@@ -8,13 +8,13 @@ import Image from 'next/image';
 const ServicePart = () => {
   return (
     <Container>
-      <div className="sm:flex justify-between flex-wrap pb-24 sm:pt-0 sm:pb-7 md:pb-0 sm: px-3 sm:px-5 xl:px-0 mb-[70px]">
+      <div className="sm:flex justify-between flex-wrap pb-24 sm:pt-0 sm:pb-7 md:pb-0 sm: px-3 sm:px-5 xl:px-0 sm:mb-10 md:mb-[40px]">
         <div className="w-[95%] sm:w-2/4 md:w-[60%] mt-4 mb-6 sm:mb-28  md:mb-36 lg:mb-40">
-          <div className=" leading-[48px] md:leading-[58px]">
-            <h2 className="text-[40px] lg:text-[50px] font-monA font-semibold text-primary">
+          <div className="leading-[36px] sm:leading-[44px] md:leading-[58px]">
+            <h2 className=" text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-monA font-semibold text-primary">
               My Awesome
             </h2>
-            <h2 className=" text-[40px] lg:text-[50px] font-monA font-semibold text-yellowp">
+            <h2 className="  text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-monA font-semibold text-yellowp">
               Services
             </h2>
           </div>
@@ -56,7 +56,7 @@ const ServicePart = () => {
             </div>
           </div>
         </div>
-        <div className=" flex flex-wrap justify-center sm:justify-end gap-x-14 md:gap-x-6 lg:gap-x-10 w-[100%] sm:w-[100%] md:w-[100%] xl:w-[100%]   mx-auto sm:mx-0 mt-[70px] sm:mt-0 ">
+        <div className=" flex sm:h-[260px] lg:h-[400px] flex-wrap justify-center sm:justify-end gap-x-14 md:gap-x-6 lg:gap-x-10 w-[100%] sm:w-[100%] md:w-[100%] xl:w-[100%]   mx-auto sm:mx-0 mt-[70px] sm:mt-0 ">
           <div className="w-[80%] sm:w-[40%] md:w-[35%] xl:w-[30%] mb-16 sm:0 sm:mt-[-40px] md:mt-[-150px]">
             <div className=' py-7 px-3 lg:py-12 lg:px-4 rounded-xl duration-500 ease-in-out shadow-cshadow3 hover:mr-[-15px] sm:hover:mr-0 sm:hover:mt-[-30px] hover:cursor-pointer'>
 
