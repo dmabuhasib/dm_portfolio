@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div>
       <Container>
-        <div className="sm:flex justify-between pb-24 sm:pt-0 sm:pb-7 md:pb-0 sm: px-3 sm:px-5">
+        <div className="sm:flex justify-between pb-24 sm:pt-0 sm:pb-7 md:pb-0 sm: px-3 sm:px-5 xl:px-0">
           <div className="w-[95%] sm:w-2/4 md:w-[60%] mt-10 mb-6 sm:mb-28 md:mt-16 md:mb-36 lg:mt-20 lg:mb-40">
              <div className=" leading-[48px] md:leading-[58px] lg:leading-[70px]">
               <h2 className="text-[40px] md:text-[50px] lg:text-[64px] font-monA font-semibold text-primary">Hi ! I Am</h2>
@@ -20,8 +20,8 @@ const Banner = () => {
               title="Harness the power of our expertise, and we'll magnify your returns twofold. No empty promises, just dedicated work that speaks volumes through your account manager."
               />
             <div className="flex gap-4"> 
-              <Link href='/services'>
-              <ButtonP title="Get Started" />
+              <Link href='/'>
+              <ButtonP title="Hire Me" />
               </Link>
             </div>
           </div>
