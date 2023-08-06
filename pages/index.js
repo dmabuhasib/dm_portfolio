@@ -1,8 +1,13 @@
+import Banner from "@/components/homeSec/Banner";
+import Layout from "@/components/layout/Layout";
+
 
 
 export default function Home() {
   return (
   
-     <h1>Hello bangladesh</h1>
+    <Layout> 
+        <Banner />
+    </Layout>
   )
 }
