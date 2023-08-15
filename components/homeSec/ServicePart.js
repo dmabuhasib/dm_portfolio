@@ -68,7 +68,7 @@ const ServicePart = () => {
               />
             </div>
             <h2 className=" text-center text-[20px] lg:text-[24px] pt-2 lg:pt-7 font-mon font-semibold text-primary">
-              Web Design
+              Web Development
             </h2>
             <Para
               className=" text-center text-sm sm:text-base lg:text-lg text-para font-inter pb-3 md:pb-6 lg:pb-10 md:pt-4 "
@@ -97,7 +97,7 @@ const ServicePart = () => {
               />
             </div>
             <h2 className=" text-center text-[20px] lg:text-[24px] pt-2 lg:pt-7 font-mon font-semibold text-primary">
-              Web Design
+              CMS
             </h2>
             <Para
               className=" text-center text-sm sm:text-base lg:text-lg text-para font-inter pb-3 md:pb-6 lg:pb-10 md:pt-4 "
