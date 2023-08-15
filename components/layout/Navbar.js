@@ -25,11 +25,11 @@ const Navbar = ({ navbg }) => {
   return (
     <nav>
       <Container>
-        <div className="mx-3 sm:mx-5 md:flex justify-between pt-4 pb-4 md:py-4 items-center">
+        <div className="mx-3 sm:mx-5 xl:mx-0 md:flex justify-between pt-4 pb-4 md:py-1 items-center">
           <div className="md:w-[20%]">
             <Link href="/">
-              <div className="w-[62px] h-[60px] md:w-[82px] md:h-[80px] relative">
-                <Image fill src="/assets/logo2.png" alt="logo" cover />
+              <div className="w-[85px] h-[81px] md:w-[110px] md:h-[105px] relative">
+                <Image fill src="/assets/logo.png" alt="logo" cover />
               </div>
             </Link>
           </div>

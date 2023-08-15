@@ -11,6 +11,7 @@ import Link from "next/link";
 import Heading from "./Heading";
 import List from "./List";
 import ListItem from "./ListItem";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -20,10 +21,9 @@ const Footer = () => {
         <div className="w-[90%]  sm:w-[35%] lg:w-[25%]">
             <div>
               <Link href="/">
-                <div>
-                  <Heading className="text-3xl font-monA text-yellowp"
-                  title="Dm Abu Hasib" />
-                </div>
+              <div className="w-[85px] h-[81px] md:w-[110px] md:h-[105px] relative">
+                <Image fill src="/assets/logo.png" alt="logo" cover />
+              </div>
               </Link>
               <p className="text-white mt-6 mr-2">
                 In our daily life, people usually look for different IT services
