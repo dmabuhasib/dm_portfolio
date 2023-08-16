@@ -14,7 +14,7 @@ const ServicesBanner = () => {
         <Container>
           <div className="flex justify-center gap-3 md:gap-4">
             <Heading
-              className="  text-white font-monA text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
+              className="  text-white font-mon text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
               title="MY"
             />
             <Heading

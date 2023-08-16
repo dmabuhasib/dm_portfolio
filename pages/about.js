@@ -1,10 +1,10 @@
+import AboutBanner from '@/components/abouSec/AboutBanner'
 import Layout from '@/components/layout/Layout'
-import React from 'react'
 
 const about = () => {
   return (
     <Layout>
-        
+        <AboutBanner />
     </Layout>
   )
 }
