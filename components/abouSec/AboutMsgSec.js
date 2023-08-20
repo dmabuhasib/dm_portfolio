@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Container from "../layout/Container";
-import Heading from "../layout/Heading";
 import { useForm } from "react-hook-form";
 // import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import ButtonP from "../layout/ButtonP";
 const AboutMsgSec = () => {
   const { register, handleSubmit, reset } = useForm();
   const formRef = useRef(null);
@@ -50,10 +50,16 @@ const AboutMsgSec = () => {
             </div>
           </div>
           <div className=" w-full sm:w-[45%] xl:w-[50%] mt-12 sm:mt-0">
-            <Heading
-              className="text-primary py-2 sm:py-3 md:py-4 lg:py-7 lg:leading-[54px] xl:leading-[64px]   text-2xl lg:text-4xl xl:text-5xl font-bold font-pop"
-              title="LET’S TALK"
-            />
+          
+             <div className=" leading-[36px]  w-[100%] lg:pt-8 lg:pb-4 sm:leading-[44px] md:leading-[58px]">
+              <h2 className=" text-[28px] sm:text-[36px] md:text-[40px] lg:text-[46px] inline font-pop font-semibold text-primary">
+              LET’S
+              </h2>
+              &nbsp;
+              <h2 className=" text-[28px] sm:text-[36px] md:text-[40px]  inline lg:text-[46px] font-pop font-semibold yellow-gr2">
+              TALK
+              </h2>
+            </div>
             <form onSubmit={handleSubmit(onSubmit)} ref={formRef}>
               <div className="md:flex gap-x-4 lg:gap-x-8">
                 <div className=" w-full md:w-2/4">
@@ -66,7 +72,7 @@ const AboutMsgSec = () => {
                   <input
                     type="text"
                     required
-                    className="border text-base md:text-lg border-para w-full p-2 lg:p-4 rounded-lg mt-1 lg:mt-2 mb-4 focus:outline-primary"
+                    className="border text-base md:text-lg border-para w-full p-2 lg:p-4 rounded-lg mt-1 lg:mt-2 mb-4 focus:outline-yellowp"
                     placeholder="Write your name"
                     {...register("name")}
                   />
@@ -81,7 +87,7 @@ const AboutMsgSec = () => {
                   <input
                     type="email"
                     required
-                    className="border text-base md:text-lg border-para w-full p-2 lg:p-4 rounded-lg mt-1 lg:mt-2 mb-4 focus:outline-primary"
+                    className="border text-base md:text-lg border-para w-full p-2 lg:p-4 rounded-lg mt-1 lg:mt-2 mb-4 focus:outline-yellowp"
                     placeholder="Write your email"
                     {...register("email")}
                   />
@@ -97,17 +103,14 @@ const AboutMsgSec = () => {
                 <textarea
                   type="email"
                   required
-                  className="border border-para text-base md:text-lg w-full h-[80px] md:h-[120px] lg:h-[200px] px-4 py-2 mt-2 mb-4 rounded-lg focus:outline-primary"
+                  className="border border-para text-base md:text-lg w-full h-[80px] md:h-[120px] lg:h-[200px] px-4 py-2 mt-2 mb-4 rounded-lg focus:outline-yellowp"
                   placeholder="Write us what you want to know"
                   {...register("message")}
                 />
               </div>
-              <button
-                type="submit"
-                className="border-2 bg-primary transition duration-300 ease-in-out border-solid text-base md:text-lg font-medium font-pop rounded-lg border-primary text-white px-8 md:px-10 py-2 hover:font-medium hover:bg-white hover:text-primary"
-              >
-                Submit
-              </button>
+              <ButtonP
+              title="Submit"
+              />
             </form>
           </div>
         </div>

@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}', 
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
@@ -16,8 +16,7 @@ module.exports = {
         container: "1120px",
       },
       fontFamily: {
-        mon: ["Montserrat", "sans-serif"],
-        monA: ["Montserrat Alternates", "sans-serif"],
+        pop: ["Poppins", "sans-serif"],
       },
       colors: {
         primary: "#262525",

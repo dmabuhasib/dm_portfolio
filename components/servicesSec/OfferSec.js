@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import SubHeading from "../layout/SubHeading";
-import Heading from "../layout/Heading";
 import Para from "../layout/Para";
 import ButtonP from "../layout/ButtonP";
 import Container from "../layout/Container";
@@ -12,22 +11,22 @@ const OfferSec = () => {
       <Container>
         <div className="w-[95%] sm:w-[85%] lg:w-[65%] mx-auto">
           <SubHeading
-            className=" text-center text-sm md:text-base lg:text-lg xl:text-xl yellow-gr2 font-mon font-bold"
+            className=" text-center text-sm md:text-base lg:text-lg xl:text-xl yellow-gr2 font-pop font-bold"
             title="WHAT I OFFER"
           />
            <div className=" leading-[36px] lg:pt-8 lg:pb-4 sm:leading-[44px] md:leading-[58px] text-center">
-            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px] lg:text-[56px] inline font-monA font-semibold text-primary">
+            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px] lg:text-[56px] inline font-popA font-semibold text-primary">
             My Services
             </h2>
             &nbsp;
-            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px]  inline lg:text-[56px] font-monA font-semibold yellow-gr2">
+            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px]  inline lg:text-[56px] font-popA font-semibold yellow-gr2">
             Category
             </h2>
           
           </div>
           <div className=" w-[100%] sm:w-[90%] mx-auto">
             <Para
-              className=" text-center text-sm sm:text-base lg:text-lg text-para font-inter pb-10"
+              className=" text-center text-sm sm:text-base lg:text-lg text-para font-pop pb-10"
               title="In our daily life, people usually look for different IT services for that. But from now on, no more worries, our service has the solution for everything. We have"
             />
           </div>
@@ -51,12 +50,12 @@ const OfferSec = () => {
                 />
               </div>
               <SubHeading
-                className="text-primary font-mon font-bold text-base sm:text-lg lg:text-xl
+                className="text-primary font-pop font-bold text-base sm:text-lg lg:text-xl
                pt-1 pb-2 lg:pt-2 lg:pb-4"
                 title="Web Development"
               />
               <Para
-                className="  text-xs sm:text-base lg:text-lg text-para font-inter"
+                className="  text-xs sm:text-base lg:text-lg text-para font-pop"
                 title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
               />
             </div>
@@ -78,12 +77,12 @@ const OfferSec = () => {
                 />
               </div>
               <SubHeading
-                className="text-primary font-mon font-bold text-base sm:text-lg lg:text-xl
+                className="text-primary font-pop font-bold text-base sm:text-lg lg:text-xl
                  pt-1 pb-2 lg:pt-2 lg:pb-4"
                 title="CMS (WordPress, Joomla,)"
               />
               <Para
-                className=" text-xs sm:text-base lg:text-lg text-para font-inter"
+                className=" text-xs sm:text-base lg:text-lg text-para font-pop"
                 title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
               />
             </div>
@@ -109,12 +108,12 @@ const OfferSec = () => {
                 />
               </div>
               <SubHeading
-                className="text-primary font-mon font-bold text-base sm:text-lg lg:text-xl
+                className="text-primary font-pop font-bold text-base sm:text-lg lg:text-xl
                  pt-1 pb-2 lg:pt-4 lg:pb-4"
                 title="Web Design"
               />
               <Para
-                className="  text-xs sm:text-base lg:text-lg text-para font-inter"
+                className="  text-xs sm:text-base lg:text-lg text-para font-pop"
                 title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries. "
               />
             </div>
@@ -136,12 +135,12 @@ const OfferSec = () => {
                 />
               </div>
               <SubHeading
-                className="text-primary font-mon font-bold text-base sm:text-lg lg:text-xl
+                className="text-primary font-pop font-bold text-base sm:text-lg lg:text-xl
                   pt-1 pb-2 lg:pt-2 lg:pb-4"
                 title="Ui/UX Design"
               />
               <Para
-                className="  text-xs sm:text-base lg:text-lg text-para font-inter"
+                className="  text-xs sm:text-base lg:text-lg text-para font-pop"
                 title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
               />
             </div>

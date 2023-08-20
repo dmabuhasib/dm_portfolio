@@ -1,27 +1,32 @@
-import Image from "next/image";
-import Container from "../layout/Container";
-import SubHeading from "../layout/SubHeading";
-import Heading from "../layout/Heading";
-import Para from "../layout/Para";
+import Image from 'next/image';
+import Container from '../layout/Container';
+import SubHeading from '../layout/SubHeading';
+import Heading from '../layout/Heading';
+import Para from '../layout/Para';
 
 const AboutChosseSec = () => {
   return (
-    <div className="py-20 bg-primaryBg">
+    <div className="py-20">
       <Container>
         <div>
           <div className="w-[75%] md:w-[65%] mx-auto">
             <SubHeading
-              className="text-center text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
+              className="text-center text-sm md:text-base lg:text-lg xl:text-xl yellow-gr2 font-pop font-bold"
               title="WHY CHOOSE US"
             />
-            <Heading
-              className=" text-center text-primary py-2 sm:py-3 md:py-4 lg:py-5 xl:py-7 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-bold font-pop"
-              title="We Help You To Increase Your 
-            Sale Through Solution"
-            />
+
+            <div className=" leading-[36px]  w-[100%] lg:pt-8 lg:pb-4 sm:leading-[44px] md:leading-[58px] text-center">
+              <h2 className=" text-[28px] sm:text-[36px] md:text-[40px] lg:text-[46px] inline font-pop font-semibold text-primary">
+                We Help You To Increase
+              </h2>
+              &nbsp;
+              <h2 className=" text-[28px] sm:text-[36px] md:text-[40px]  inline lg:text-[46px] font-pop font-semibold yellow-gr2">
+                Your Sale Through Solution
+              </h2>
+            </div>
             <div className="w-[95%] sm:w-[90%] md:w-[100%] lg:w-[70%] mx-auto">
               <Para
-                className="text-center text-sm sm:text-base lg:text-lg text-para font-inter pb-8"
+                className="text-center text-sm sm:text-base lg:text-lg text-para font-pop pb-8"
                 title="In our daily life, people usually look for different IT services 
             for that. But from now on, no more worries,"
               />
@@ -38,7 +43,7 @@ const AboutChosseSec = () => {
                 title="Branding Stategy"
               />
               <Para
-                className=" text-sm sm:text-base lg:text-lg text-para font-inter"
+                className=" text-sm sm:text-base lg:text-lg text-para font-pop"
                 title="We will help you with all your needs. In fact, you will get all kinds of services "
               />
             </div>
@@ -56,7 +61,7 @@ const AboutChosseSec = () => {
                 title="Professional Marketing"
               />
               <Para
-                className=" text-sm sm:text-base lg:text-lg text-para font-inter"
+                className=" text-sm sm:text-base lg:text-lg text-para font-pop"
                 title="We will help you with all your needs. In fact, you will get all kinds of services "
               />
             </div>
@@ -74,7 +79,7 @@ const AboutChosseSec = () => {
                 title="Unique Design"
               />
               <Para
-                className=" text-sm sm:text-base lg:text-lg text-para font-inter"
+                className=" text-sm sm:text-base lg:text-lg text-para font-pop"
                 title="We will help you with all your needs. In fact, you will get all kinds of services "
               />
             </div>
@@ -88,7 +93,7 @@ const AboutChosseSec = () => {
                 title="Growing Sales"
               />
               <Para
-                className=" text-sm sm:text-base lg:text-lg text-para font-inter"
+                className=" text-sm sm:text-base lg:text-lg text-para font-pop"
                 title="We will help you with all your needs. In fact, you will get all kinds of services "
               />
             </div>

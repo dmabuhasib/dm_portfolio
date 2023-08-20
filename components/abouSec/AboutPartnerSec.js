@@ -1,9 +1,9 @@
-import Image from "next/image";
-import Container from "../layout/Container";
-import SubHeading from "../layout/SubHeading";
-import Heading from "../layout/Heading";
-import Para from "../layout/Para";
-import ButtonP from "../layout/ButtonP";
+import Image from 'next/image';
+import Container from '../layout/Container';
+import SubHeading from '../layout/SubHeading';
+import Heading from '../layout/Heading';
+import Para from '../layout/Para';
+import ButtonP from '../layout/ButtonP';
 
 const AboutPartnerSec = () => {
   return (
@@ -16,14 +16,18 @@ const AboutPartnerSec = () => {
         </div>
         <div className="w-full sm:w-2/4 sm:pl-6 py-8 sm:py-0">
           <SubHeading
-            className="text-sm md:text-base lg:text-lg xl:text-xl yellow-gr font-pop font-bold"
-            title="WHO WE ARE"
+            className="text-sm md:text-base lg:text-lg xl:text-xl yellow-gr2 font-pop font-bold"
+            title="WHO I AM"
           />
-          <Heading
-            className="text-primary py-2 sm:py-3 md:py-4 lg:py-5 xl:py-7 lg:leading-[44px] xl:leading-[64px]    text-xl sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-bold font-pop"
-            title="Your Trusted Partner For 
-          All IT Solution "
-          />
+          <div className=" leading-[36px] w-[100%]  lg:pt-8 lg:pb-4 sm:leading-[44px] md:leading-[50px]">
+            <h2 className=" text-[28px] sm:text-[36px] md:text-[46px] inline font-pop font-semibold text-primary">
+            Your Trusted Partner  
+            </h2>  &nbsp;
+            &nbsp;
+            <h2 className=" text-[28px] sm:text-[36px] md:text-[46px]  inline  font-pop font-semibold yellow-gr2">
+            For Web App Solution
+            </h2>
+          </div>
           <Para
             className=" text-sm sm:text-base md:text-sm sm:pb-5 md:pb-6 lg:pb-8 lg:text-lg text-para font-inter"
             title="In our daily life, people usually look for different IT 
@@ -40,7 +44,7 @@ const AboutPartnerSec = () => {
             title="Our Mission"
           />
           <Para
-            className=" text-sm sm:text-base lg:text-lg text-para font-inter"
+            className=" text-sm sm:text-base lg:text-lg text-para font-pop"
             title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
           />
         </div>
@@ -51,7 +55,7 @@ const AboutPartnerSec = () => {
             title="Our Values"
           />
           <Para
-            className=" text-sm sm:text-base lg:text-lg text-para font-inter"
+            className=" text-sm sm:text-base lg:text-lg text-para font-pop"
             title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
           />
         </div>
@@ -62,7 +66,7 @@ const AboutPartnerSec = () => {
             title="Our Vision"
           />
           <Para
-            className=" text-sm sm:text-base lg:text-lg text-para font-inter"
+            className=" text-sm sm:text-base lg:text-lg text-para font-pop"
             title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
           />
         </div>

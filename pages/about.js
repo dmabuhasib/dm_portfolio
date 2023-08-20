@@ -13,7 +13,6 @@ const about = () => {
       <AboutPartnerSec />
       <AboutSkillSec />
       <AboutChosseSec />
-      <AboutExpertSec />
       <AboutMsgSec />
     </Layout>
   );

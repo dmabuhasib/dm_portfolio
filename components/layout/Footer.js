@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="w-[50%] sm:w-[30%] lg:w-[22%]">
             <div>
               <Heading
-                className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold  font-inter   text-yellowp"
+                className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold  font-pop   text-yellowp"
                 title="Connect Online"
               />
               <div className=" flex mt-4 gap-x-2 text-yellow text-3xl d-flex flex-wrap gap-2">
@@ -64,10 +64,10 @@ const Footer = () => {
           <div className="w-[50%]  sm:w-[37%]  lg:w-[12%]">
             <div>
               <Heading
-                className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold  font-inter   text-yellowp"
+                className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold  font-pop   text-yellowp"
                 title="Support"
               />
-              <List className="font-inter font-light mt-5 text-sm md:text-base  text-white">
+              <List className="font-pop font-light mt-5 text-sm md:text-base  text-white">
                 <ListItem
                   className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
                   itemname="FAQs"
@@ -83,10 +83,10 @@ const Footer = () => {
           <div className="w-[50%] sm:w-[63%] lg:w-[17%] mr-auto sm:mr-0">
             <div>
               <Heading
-                className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold  font-inter   text-yellowp"
+                className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold  font-pop   text-yellowp"
                 title="Contact Info"
               />
-              <List className="font-inter font-light mt-2 sm:mt-5 text-sm md:text-base text-white">
+              <List className="font-pop font-light mt-2 sm:mt-5 text-sm md:text-base text-white">
                 <ListItem
                   className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
                   itemname="Address"

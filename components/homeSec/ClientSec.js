@@ -69,14 +69,14 @@ const ClientSec = () => {
       <Container>
         <div className="  md:pt-[60px]  lg:pt-[80px] px-3 sm:px-5 xl:px-0 xl:pt-[120px]">
           <div className=" leading-[36px] sm:leading-[44px] md:leading-[58px]">
-            <h2 className=" text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] inline font-monA font-semibold text-primary">
+            <h2 className=" text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] inline font-pop font-semibold text-primary">
               Client’s get
             </h2>
             &nbsp;
-            <h2 className=" text-[32px] sm:text-[36px] md:text-[40px]  inline lg:text-[50px] font-monA font-semibold text-yellowp">
+            <h2 className=" text-[32px] sm:text-[36px] md:text-[40px]  inline lg:text-[50px] font-pop font-semibold text-yellowp">
               always exceptional
             </h2>
-            <h2 className="text-[32px] sm:text-[36px] md:text-[40px]  lg:text-[50px] font-monA font-semibold text-primary">
+            <h2 className="text-[32px] sm:text-[36px] md:text-[40px]  lg:text-[50px] font-pop font-semibold text-primary">
               works From me .......
             </h2>
           </div>

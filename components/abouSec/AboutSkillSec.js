@@ -14,11 +14,11 @@ const AboutSkillSec = () => {
             title="SKILL SET"
           />
           <div className=" leading-[36px] mx-auto w-[100%] sm:w-[80%] xl:w-[70%] lg:pt-8 lg:pb-4 sm:leading-[44px] md:leading-[58px] text-center">
-            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px] lg:text-[52px] inline font-monA font-semibold text-primary">
+            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px] lg:text-[52px] inline font-pop font-semibold text-primary">
               We Have A Set Of 
             </h2>
             &nbsp;
-            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px]  inline lg:text-[52px] font-monA font-semibold yellow-gr2">
+            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px]  inline lg:text-[52px] font-pop font-semibold yellow-gr2">
              Skill With High Quality
             </h2>
           </div>

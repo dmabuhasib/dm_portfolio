@@ -35,7 +35,7 @@ const AboutExpertSec = () => {
                   title="Devon Lane"
                 />
                 <Para
-                  className="text-xs sm:text-sm lg:text-base font-medium text-primary font-inter  sm:py-1 lg:py-2"
+                  className="text-xs sm:text-sm lg:text-base font-medium text-primary font-pop  sm:py-1 lg:py-2"
                   title="Graphic Designer"
                 />
               </div>

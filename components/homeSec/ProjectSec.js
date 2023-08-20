@@ -10,10 +10,10 @@ const ProjectSec = () => {
     <Container>
         <div className='py-[50px]  lg:py-[100px]'>
         <div className="flex justify-center">
-              <h2 className=" text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-monA font-semibold text-primary">
+              <h2 className=" text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-pop font-semibold text-primary">
                 Recent
               </h2> &nbsp; &nbsp;
-              <h2 className="  text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-monA font-semibold text-yellowp">
+              <h2 className="  text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-pop font-semibold text-yellowp">
                 Project
               </h2>
 

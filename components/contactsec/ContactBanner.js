@@ -15,11 +15,11 @@ const ContactBanner = () => {
             <Container>
               <div className="flex justify-center gap-3 md:gap-4">
                 <Heading
-                  className="   yellow-gr2 font-mon text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
+                  className="   yellow-gr2 font-pop text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold"
                   title="CONTACT"
                 />
                 <Heading
-                  className="font-mon text-3xl  text-white sm:text-4xl md:text-5xl lg:text-7xl font-bold"
+                  className="font-pop text-3xl  text-white sm:text-4xl md:text-5xl lg:text-7xl font-bold"
                   title=" US"
                 />
               </div>
