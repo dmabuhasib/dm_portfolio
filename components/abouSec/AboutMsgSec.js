@@ -15,10 +15,10 @@ const AboutMsgSec = () => {
     try {
       emailjs 
         .sendForm(
-          "service_jw02be9",
-          "template_vr74l8w",
+          "service_swmyboi",
+          "template_yxon8gp",
           form,
-          "wvfNu9HNgu_kYZd-L"
+          "ZsPMGCKDpZIhgFLk0"
         )
         .then(
           (result) => {

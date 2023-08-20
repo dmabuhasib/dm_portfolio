@@ -5,13 +5,9 @@ import { useForm } from "react-hook-form";
 import "react-phone-number-input/style.css";
 import "react-country-dropdown/dist/index.css";
 import PhoneInput from "react-phone-number-input";
-import { ReactCountryDropdown } from "react-country-dropdown";
 import emailjs from "@emailjs/browser";
-import * as filestack from "filestack-js";
 import Image from "next/image";
 import Para from "../layout/Para";
-import List from "../layout/List";
-import ListItem from "../layout/ListItem";
 
 const ContactForm = () => {
   const {
@@ -21,26 +17,7 @@ const ContactForm = () => {
     formState: { errors },
   } = useForm();
 
-  const [fileUrl, setFileUrl] = useState("");
-  const [country, setCountry] = useState("");
   const [value, setValue] = useState();
-  const handleSelect = (country) => {
-    console.log(country);
-    setCountry(country.name);
-  };
-  const handleFileUpload = async (event) => {
-    const file = event.target.files[0];
-
-    try {
-      const client = filestack.init("A3dESBmkSQKnJQlGxqR2Hz");
-      const response = await client.upload(file);
-      const uploadedFileUrl = response.url;
-
-      setFileUrl(uploadedFileUrl);
-    } catch (error) {
-      console.log("File upload error:", error);
-    }
-  };
   const formRef = useRef(null);
   const onSubmit = async (data) => {
     const formData = new FormData();
@@ -51,34 +28,23 @@ const ContactForm = () => {
       services: data.services,
       budget: data.budget,
       hireOption: data.hireOption,
-      stateRegion: undefined,
-      zipcode: data.zipcode,
       message: data.message,
-      file: fileUrl,
-      websiteURL: data.websiteURL,
     };
     formData.append("name", formDat.name);
     formData.append("email", formDat.email);
     formData.append("services", formDat.services);
-    formData.append("country", country);
     formData.append("budget", formDat.budget);
     formData.append("hireOption", formDat.hireOption);
-    formData.append("stateRegion", formDat.stateRegion);
-    formData.append("zipcode", formDat.zipcode);
     formData.append("message", formDat.message);
-    formData.append("file", formDat.file);
-    formData.append("websiteURL", formDat.websiteURL);
 
-    console.log(formData);
-    console.log(form);
 
     try {
       emailjs
         .sendForm(
-          "service_rm0t6ot",
-          "template_2k353yw",
+          "service_swmyboi", 
+          "template_7z3umgv",
           form,
-          "wvfNu9HNgu_kYZd-L"
+          "ZsPMGCKDpZIhgFLk0"
         )
         .then(
           (result) => {
@@ -158,7 +124,7 @@ const ContactForm = () => {
                   placeholder="Phone Number"
                   value={value}
                   onChange={setValue}
-                  className="input phoneNumere border-b-2 rounded-sm focus:border-b-2 focus:border-green-600 bg-[#fdb80b3f] text-base md:text-lg  lg:text-xl  py-3 px-2  md:py-4 lg:py-5 md:px-4 text-left  border-yellowp w-full max-w-xs"
+                  className="input border-b-2 rounded-sm focus:border-b-2 focus:border-green-600 bg-[#fdb80b3f] text-base md:text-lg  lg:text-xl  py-3 px-2  md:py-4 lg:py-5 md:px-4 text-left  border-yellowp w-full max-w-xs"
                 />
                 </div>
               <div className="w-[48%]">
