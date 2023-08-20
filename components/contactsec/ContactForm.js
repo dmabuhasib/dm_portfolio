@@ -8,6 +8,10 @@ import PhoneInput from "react-phone-number-input";
 import { ReactCountryDropdown } from "react-country-dropdown";
 import emailjs from "@emailjs/browser";
 import * as filestack from "filestack-js";
+import Image from "next/image";
+import Para from "../layout/Para";
+import List from "../layout/List";
+import ListItem from "../layout/ListItem";
 
 const ContactForm = () => {
   const {
@@ -93,20 +97,26 @@ const ContactForm = () => {
   };
   return (
     <Container>
-      <div className="sm:flex justify-between  sm:px-5 xl:px-0 pt-10 sm:pt-16 md:pt-20 lg:pt-24">
-      <div className="w-[40%]">
-          <div>
-          <div className=" leading-[36px] sm:leading-[44px] md:leading-[76px]">
+      <div className="sm:flex justify-between  px-5 xl:px-0 pt-10 sm:pt-16 md:pt-20 lg:pt-24">
+      <div className=" w-[100%] sm:w-[40%]">
+          <div className=" leading-[36px] sm:leading-[44px] lg:leading-[76px]">
               <h2 className=" text-[28px] sm:text-[36px] md:text-[40px] lg:text-[60px]  font-pop font-semibold text-primary">
               LET’S WORK
               </h2>
               <h2 className=" text-[28px] sm:text-[36px] md:text-[40px]  inline lg:text-[60px] font-pop font-semibold yellow-gr2">
               TOGETHER
               </h2>
-            </div>
+          </div>
+        <Para
+        className="text-xl pb-10"
+        title="Setup a free consultation with me. Bring your knowledge to the table and I’ll bring you." />
+
+        <div className=" hidden sm:block mx-auto sm:mx-0 w-[90%] h-[300px] sm:h-[260px] md:h-[360px] xl:h-[410px] relative">
+          <Image fill src="/assets/1111.jpg" alt="contact-left"/>
+
           </div>
         </div>
-        <div className="w-[56%]">
+        <div className="w-[100%] sm:w-[56%] mt-2 sm:mt-3">
         <form onSubmit={handleSubmit(onSubmit)} ref={formRef} id="my-form">
           <div className="w-full">
             <div>
@@ -116,34 +126,27 @@ const ContactForm = () => {
               />
            
             </div>
-            <div className="flex flex-wrap gap-y-7 justify-between">
+            <div className="flex flex-wrap gap-y-7 md:gap-y-10 lg:gap-y-12 justify-between">
 
           
             <div className="w-[48%]">
-              <SubHeading
-                className="text-sm md:text-base lg:text-lg xl:text-xl text-[#013C95] font-pop font-bold mb-2"
-                title="Name"
-              />
+          
               <input
                 type="text"
                 {...register("name", { required: true })}
-                placeholder="Write your name"
-                className="input border-b-2 rounded-sm focus:border-b-2 focus:border-green-600 focus:outline-none  text-xl bg-[#fdb80b3f]  py-5 px-4 text-left  border-yellowp w-full max-w-xs"
+                placeholder="Full Name*"
+                className="input border-b-2 placeholder:text-[#013C95] placeholder:font-bold rounded-sm focus:border-b-2 focus:border-green-600 focus:outline-none  text-base md:text-lg  lg:text-xl bg-[#fdb80b3f] py-3 px-2  md:py-4 lg:py-5 md:px-4 text-left  border-yellowp w-full max-w-xs"
               />
             {errors.name && (
               <span className="text-red-500 inline">Name is required</span>
             )}
             </div>
             <div className=" w-[48%]">
-              <SubHeading
-                className="text-sm md:text-base lg:text-lg xl:text-xl text-[#013C95] font-pop font-bold mb-2 "
-                title="Email"
-              />
               <input
                 type="email"
                 {...register("email", { required: true })}
-                placeholder="Write your email"
-                className="input border-b-2 rounded-sm focus:border-b-2 focus:border-green-600 focus:outline-none  text-xl bg-[#fdb80b3f]  py-5 px-4 text-left  border-yellowp w-full max-w-xs"
+                placeholder=" Your Email*"
+                className="input border-b-2 placeholder:text-[#013C95] placeholder:font-bold rounded-sm focus:border-b-2 focus:border-green-600 focus:outline-none text-base md:text-lg  lg:text-xl bg-[#fdb80b3f] py-3 px-2  md:py-4 lg:py-5 md:px-4 text-left  border-yellowp w-full max-w-xs"
               />
             {errors.email && (
               <span className="text-red-500">Email is required</span>
@@ -151,29 +154,21 @@ const ContactForm = () => {
             </div>
          
               <div className=" w-[48%]">
-                <SubHeading
-                  className="text-sm md:text-base lg:text-lg xl:text-xl text-[#013C95] font-pop font-bold mb-2 "
-                  title="Phone Number"
-                />
                 <PhoneInput
-                  placeholder="Enter phone number"
+                  placeholder="Phone Number"
                   value={value}
                   onChange={setValue}
-                  className="input phoneNumere border-b-2 rounded-sm focus:border-b-2 focus:border-green-600  text-xl bg-[#fdb80b3f]  py-5 px-4 text-left  border-yellowp w-full max-w-xs"
+                  className="input phoneNumere border-b-2 rounded-sm focus:border-b-2 focus:border-green-600 bg-[#fdb80b3f] text-base md:text-lg  lg:text-xl  py-3 px-2  md:py-4 lg:py-5 md:px-4 text-left  border-yellowp w-full max-w-xs"
                 />
                 </div>
               <div className="w-[48%]">
-                <SubHeading
-                  className="text-sm md:text-base lg:text-lg xl:text-xl text-[#013C95] font-pop font-bold mb-2 "
-                  title="Services"
-                />
                 <div className="form-contro ">
-                  <div className="input-group px-4 border-b-2 rounded-sm focus:border-b-2 focus:border-green-600  text-xl bg-[#fdb80b3f]  py-5 text-left  border-yellowp w-full max-w-xs">
+                  <div className="input-group border-b-2 rounded-sm focus:border-b-2 focus:border-green-600   bg-[#fdb80b3f]  text-base md:text-lg  lg:text-xl  py-3 px-2  md:py-4 lg:py-5 md:px-4 border-yellowp w-full max-w-xs">
                     <select
-                      className="select outline-none bg-[#fdb80b00]  w-full "
+                      className="select font-semibold outline-none bg-[#fdb80b00]  w-full "
                       {...register("services")}
                     >
-                      <option selected>Any</option>
+                      <option selected>Required Services</option>
                       <option>Web Design</option>
                       <option>Web Development</option>
                       <option>Full Stack Services</option>
@@ -183,19 +178,17 @@ const ContactForm = () => {
                   </div>
                 </div>
               </div>
-            <div className="mt-5 w-full sm:flex justify-between   ">
+            <div className="w-full flex justify-between">
               <div className="w-[48%]">
-                <SubHeading
-                  className="text-sm md:text-base lg:text-lg xl:text-xl text-[#013C95] font-pop font-bold mb-2 "
-                  title="Approximate Budget"
-                />
+              
                   <div className="form-control">
-                  <div className="input-group px-4 border-b-2 rounded-sm focus:border-b-2 focus:border-green-600  text-xl bg-[#fdb80b3f]  py-5 text-left  border-yellowp w-full max-w-xs">
+                  <div className="input-group border-b-2 rounded-sm focus:border-b-2 focus:border-green-600  text-base md:text-lg  lg:text-xl  py-3 px-2  md:py-4 lg:py-5 md:px-4 bg-[#fdb80b3f]  text-left  border-yellowp w-full max-w-xs">
                       <select
-                      className="select outline-none bg-[#fdb80b00]  w-full "
+                      className="select font-semibold outline-none bg-[#fdb80b00]  w-full "
                         {...register("budget")}
                       >
-                        <option selected>$100-$200</option>
+                        <option selected>Project Budget</option>
+                        <option>$100-$200</option>
                         <option>$200-$400</option>
                         <option>$400-$600</option>
                         <option>$700-$900</option>
@@ -205,17 +198,15 @@ const ContactForm = () => {
                 </div>
               </div>
               <div className="w-[48%] ">
-                <SubHeading
-                  className="text-sm md:text-base lg:text-lg xl:text-xl text-[#013C95] font-pop font-bold mb-2 ml-3 "
-                  title="Hire Us"
-                />
+            
                 <div className="form-control">
-                <div className="input-group px-4 border-b-2 rounded-sm focus:border-b-2 focus:border-green-600  text-xl bg-[#fdb80b3f]  py-5 text-left  border-yellowp w-full max-w-xs">
+                <div className="input-group  border-b-2 rounded-sm focus:border-b-2 focus:border-green-600   bg-[#fdb80b3f]  text-base md:text-lg  lg:text-xl  py-3 px-2  md:py-4 lg:py-5 md:px-4 text-left  border-yellowp w-full max-w-xs">
                     <select
-               className="select outline-none bg-[#fdb80b00]  w-full "
+               className="select font-semibold outline-none bg-[#fdb80b00]  w-full "
                       {...register("hireOption")}
                     >
-                      <option selected>Hourly</option>
+                      <option selected>Hire Us</option>
+                      <option >Hourly</option>
                       <option> Project</option>
                       <option>Monthly</option>
                     </select>
@@ -225,13 +216,9 @@ const ContactForm = () => {
             </div>
            
             <div className="w-[100%]   ">
-              <SubHeading
-                className="text-sm md:text-base lg:text-lg xl:text-xl text-[#013C95] font-pop font-bold mb-2 "
-                title="Messages"
-              />
               <textarea
-                 className="input-group w-[100%] px-4 border-b-2 rounded-sm focus:border-b-2 focus:border-green-600 focus:outline-none text-xl bg-[#fdb80b3f] py-5 text-left  border-yellowp h-56"
-                placeholder="Write us what you want to know"
+                 className="input-group w-[100%] placeholder:text-black placeholder:font-semibold px-4 border-b-2 rounded-sm focus:border-b-2 focus:border-green-600 focus:outline-none text-base md:text-lg lg:text-xl bg-[#fdb80b3f] py-5 text-left  border-yellowp h-40 md:h-48 lg:h-56"
+                placeholder="Project Description"
                 {...register("message")}
               ></textarea>
             </div>
