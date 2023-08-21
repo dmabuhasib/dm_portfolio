@@ -24,7 +24,7 @@ const Banner = () => {
               title="Harness the power of our expertise, and we'll magnify your returns twofold. No empty promises, just dedicated work that speaks volumes through your account manager."
             />
             <div className="flex gap-4">
-              <Link href="/">
+              <Link href="/contact">
                 <ButtonP title="Hire Me" />
               </Link>
             </div>

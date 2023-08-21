@@ -10,8 +10,8 @@ const AboutPartnerSec = () => {
     <Container>
       <div className="sm:flex justify-between px-3 sm:px-5 xl:px-0 pt-10 sm:pt-16 md:pt-20 lg:pt-24">
         <div className="w-full sm:w-2/4 ">
-          <div className="mx-auto sm:mx-0 w-[365px] h-[193px] sm:w-[345px] sm:h-[185px] md:w-[365px] md:h-[193px]  lg:w-[480px] lg:h-[240px]  xl:w-[550px] xl:h-[272px] relative">
-            <Image fill src="/assets/partner_image.png" alt="partner_image" />
+          <div className="mx-auto sm:mx-0 w-[365px] h-[193px] sm:w-[345px] sm:h-[185px] md:w-[365px] md:h-[193px] lg:w-[480px] lg:h-[240px]  xl:w-[550px] xl:h-[272px] relative">
+            <Image fill src="/assets/about-banner.jpg" alt="about-banner" />
           </div>
         </div>
         <div className="w-full sm:w-2/4 sm:pl-6 py-8 sm:py-0">
