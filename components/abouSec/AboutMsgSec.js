@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser';
 import Image from 'next/image';
 import Container from '../layout/Container';
 import ButtonP from '../layout/ButtonP';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const AboutMsgSec = () => {
   const form = useRef();
   
@@ -12,15 +14,18 @@ const AboutMsgSec = () => {
     emailjs.sendForm('service_swmyboi', 'template_yxon8gp', form.current, 'ZsPMGCKDpZIhgFLk0')
       .then((result) => {
           console.log(result.text);
-          alert("Message Sent Successfully")
+          toast.success("Message Sent Successfully")
       }, (error) => {
           console.log(error.text);
+          toast.error("An error occurred. Please try again later.")
+          
       });
       e.target.reset()
   };
   return (
     <div className="py-8 sm:py-10 md:py-16 lg:py-24">
       <Container>
+      <ToastContainer autoClose={3000} />
         <div className="sm:flex px-3 sm:px-5 xl:px-0">
           <div className="w-full sm:w-[55%] xl:w-[50%] sm:mt-4 md:mt-5 lg:mt-9">
             <div className="mx-auto sm:mx-0  h-[360px] w-[360px] sm:h-[360px] sm:w-[330px] md:h-[370px] md:w-[370px] lg:w-[480px] lg:h-[480px] xl:w-[550px] xl:h-[550px] relative block">
