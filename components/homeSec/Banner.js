@@ -31,7 +31,7 @@ const Banner = () => {
           </div>
           <div className="w-[100%] mx-auto sm:w-2/4 md:[40%] md:mt-16 lg:mt-10">
             <div className="relative  w-[100%] h-[320px] lg:w-[461px] lg:h-[461px] mx-auto my-auto">
-              <Image fill src="/assets/banner_image.png" alt="banner-image" />
+              <Image fill src="/assets/banner_image2.png" alt="banner-image" />
             </div>
           </div>
         </div>
