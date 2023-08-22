@@ -19,12 +19,12 @@ const BrandCSec = () => {
               <h2 className=" text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-pop font-semibold text-primary">
                 Work For All This
               </h2>
-              <h2 className="  text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-pop font-semibold text-yellowp">
+              <h2 className=" inline-block text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-pop font-semibold yellow-gr2">
                 Brand & Client
               </h2>
             </div>
             <Para
-              className=" text-sm sm:text-base lg:text-lg text-para font-pop pb-6 md:pb-6 lg:pb-12 pt-5 md:pt-8"
+              className=" text-sm sm:text-base lg:text-lg text-para font-pop pb-6 md:pb-6 lg:pb-12 pt-3 md:pt-4"
               title="Lorem ipsum dolor sit amet consectetur. Eget pellentesque
             congue facilisi eget viverra leo tempor aliquet . Commodo et  
              venenatis pellentesque. Commodo et montes id."

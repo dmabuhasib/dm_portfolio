@@ -15,11 +15,11 @@ const OfferSec = () => {
             title="WHAT I OFFER"
           />
            <div className=" leading-[36px] lg:pt-8 lg:pb-4 sm:leading-[44px] md:leading-[58px] text-center">
-            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px] lg:text-[56px] inline font-popA font-semibold text-primary">
+            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px] lg:text-[56px] inline font-pop font-semibold text-primary">
             My Services
             </h2>
-            &nbsp;
-            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px]  inline lg:text-[56px] font-popA font-semibold yellow-gr2">
+            &nbsp; &nbsp;
+            <h2 className=" text-[28px] sm:text-[36px] md:text-[40px]  inline lg:text-[56px] font-pop font-semibold yellow-gr2">
             Category
             </h2>
           

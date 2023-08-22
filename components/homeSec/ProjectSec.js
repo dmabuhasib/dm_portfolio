@@ -13,7 +13,7 @@ const ProjectSec = () => {
               <h2 className=" text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-pop font-semibold text-primary">
                 Recent
               </h2> &nbsp; &nbsp;
-              <h2 className="  text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-pop font-semibold text-yellowp">
+              <h2 className="  text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-pop font-semibold yellow-gr2">
                 Project
               </h2>
 

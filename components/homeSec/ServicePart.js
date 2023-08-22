@@ -1,25 +1,24 @@
-import React from 'react';
 import Container from '../layout/Container';
 import Para from '../layout/Para';
 import Link from 'next/link';
 import ButtonP from '../layout/ButtonP';
-import Image from 'next/image';
+import Image from 'next/image'; 
 
 const ServicePart = () => {
   return (
     <Container>
       <div className="sm:flex justify-between flex-wrap pb-24 sm:pt-0 sm:pb-7 md:pb-0 sm: px-3 sm:px-5 xl:px-0 sm:mb-10 md:mb-[40px]">
-        <div className="w-[95%] sm:w-2/4 md:w-[60%] mt-4 mb-6 sm:mb-28  md:mb-36 lg:mb-40">
+        <div className="w-[95%] sm:w-[50%] md:w-[60%] mt-4 mb-6 sm:mb-28  md:mb-36 lg:mb-40">
           <div className="leading-[36px] sm:leading-[44px] md:leading-[58px]">
-            <h2 className=" text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-monA font-semibold text-primary">
+            <h2 className=" text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-pop font-semibold text-primary">
               My Awesome
             </h2>
-            <h2 className="  text-[32px] sm:text-[36px] md:text-[40px] lg:text-[50px] font-monA font-semibold text-yellowp">
+            <h2 className=" inline-block text-[32px] yellow-gr2 sm:text-[36px] md:text-[40px] lg:text-[50px] font-pop font-semibold ">
               Services
             </h2>
           </div>
           <Para
-            className=" text-sm sm:text-base lg:text-lg text-para font-inter pb-6 md:pb-6 lg:pb-10 pt-5 md:pt-6 "
+            className=" text-sm sm:text-base lg:text-lg text-para font-inter pb-6 md:pb-6 lg:pb-10 pt-3 md:pt-4 "
             title="Harness the power of our expertise, and we'll magnify your returns twofold. No empty promises, just dedicated work that speaks volumes through your account manager."
           />
           <div className="flex gap-4">

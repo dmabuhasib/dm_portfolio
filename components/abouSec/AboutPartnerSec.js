@@ -16,7 +16,7 @@ const AboutPartnerSec = () => {
         </div>
         <div className="w-full sm:w-2/4 sm:pl-6 py-8 sm:py-0">
           <SubHeading
-            className="text-sm md:text-base lg:text-lg xl:text-xl yellow-gr2 font-pop font-bold"
+            className="inline-block text-sm md:text-base lg:text-lg xl:text-xl yellow-gr2 font-pop font-bold"
             title="WHO I AM"
           />
           <div className=" leading-[36px] w-[100%]  lg:pt-8 lg:pb-4 sm:leading-[44px] md:leading-[50px]">
