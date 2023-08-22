@@ -6,7 +6,7 @@ import Para from '../layout/Para';
 
 const AboutChosseSec = () => {
   return (
-    <div className="py-20">
+    <div className="pb-20">
       <Container>
         <div>
           <div className="w-[75%] md:w-[65%] mx-auto">
@@ -33,59 +33,59 @@ const AboutChosseSec = () => {
             </div>
           </div>
           <div className="flex flex-wrap px-3 sm:px-5 justify-between md:pt-3 lg:pt-6 gap-y-4 sm:gap-y-6 md:px-">
-            <div className="bg-white w-[48%] md:w-[31%] lg:w-[23%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md">
+            <div className="bg-white w-[48%] md:w-[31%] lg:w-[23%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 duration-300 ease-in-out rounded-md hover:shadow-cshadow2">
               <div className="w-[40px] h-[42px] sm:w-[60px] sm:h-[63px] lg:w-[70px]  lg:h-[74px] xl:w-[80px] xl:h-[84px] relative">
-                <Image fill src="/assets/brand-icon.png" alt="brand-icon-img" />
+                <Image fill src="/assets/perfomance_icon.png" alt="perfomance_icon_img" />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-base sm:text-lg lg:text-xl
                  pt-4 pb-2 lg:pt-6 lg:pb-4"
-                title="Branding Stategy"
+                title="Fast Performance"
               />
               <Para
                 className=" text-sm sm:text-base lg:text-lg text-para font-pop"
-                title="We will help you with all your needs. In fact, you will get all kinds of services "
+                title="Optimized for a smaller build size, faster dev compilation and dozens of other improvements."
               />
             </div>
-            <div className="bg-white w-[48%] md:w-[31%] lg:w-[23%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md">
+            <div className="bg-white w-[48%] md:w-[31%] lg:w-[23%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md duration-300 ease-in-out hover:shadow-cshadow2">
               <div className="w-[40px] h-[42px] sm:w-[60px] sm:h-[63px] lg:w-[70px]  lg:h-[74px] xl:w-[80px] xl:h-[84px] relative">
                 <Image
                   fill
-                  src="/assets/social-icon.png"
-                  alt="brand-icon-img"
+                  src="/assets/responsive_icon.png"
+                  alt="responsive_icon_img"
                 />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-base sm:text-lg lg:text-xl
                  pt-4 pb-2 lg:pt-6 lg:pb-2"
-                title="Professional Marketing"
+                title="Perfect Responsive"
               />
               <Para
                 className=" text-sm sm:text-base lg:text-lg text-para font-pop"
-                title="We will help you with all your needs. In fact, you will get all kinds of services "
+                title="My Design is full Perfect for all device. You can visit this design all device easily."
               />
             </div>
-            <div className="bg-white w-[48%] md:w-[31%] lg:w-[23%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md">
+            <div className="bg-white w-[48%] md:w-[31%] lg:w-[23%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md duration-300 ease-in-out hover:shadow-cshadow2">
               <div className="w-[40px] h-[42px] sm:w-[60px] sm:h-[63px] lg:w-[70px]  lg:h-[74px] xl:w-[80px] xl:h-[84px] relative">
                 <Image
                   fill
-                  src="/assets/design-icon.png"
-                  alt="brand-icon-img"
+                  src="/assets/support_icon.png"
+                  alt="support_icon_img"
                 />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-base sm:text-lg lg:text-xl
                  pt-4 pb-2 lg:pt-6 lg:pb-4"
-                title="Unique Design"
+                title="Fast & Friendly Support"
               />
               <Para
                 className=" text-sm sm:text-base lg:text-lg text-para font-pop"
-                title="We will help you with all your needs. In fact, you will get all kinds of services "
+                title="I am provide 24 hours support for all clients.You can purchase without hesitation."
               />
             </div>
-            <div className="bg-white w-[48%] md:w-[31%] lg:w-[23%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md">
+            <div className="bg-white w-[48%] md:w-[31%] lg:w-[23%] shadow-cshadow p-3 sm:p-5 lg:p-5 xl:p-7 rounded-md duration-300 ease-in-out hover:shadow-cshadow2">
               <div className="w-[40px] h-[42px] sm:w-[60px] sm:h-[63px] lg:w-[70px]  lg:h-[74px] xl:w-[80px] xl:h-[84px] relative">
-                <Image fill src="/assets/grow-icon.png" alt="brand-icon-img" />
+                <Image fill src="/assets/Grow_icon.png" alt="Grow_icon-img" />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-base sm:text-lg lg:text-xl
