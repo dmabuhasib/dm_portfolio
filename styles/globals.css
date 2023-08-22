@@ -11,12 +11,12 @@
 }
 
 .yellow-gr {
-    background: linear-gradient(139.27deg,  #FDBD07 0%, #FFA02D 93.57%);
+    background: linear-gradient(139.27deg,  #FDBD07 40%, #FD3F33 99.57%);
 
 
 }
 .yellow-gr2 {
-    background: linear-gradient(139.27deg,  #FDBD07 0%, #FFA02D 93.57%);
+    background: linear-gradient(139.27deg,  #FDBD07 30%, #fd6933 99.57%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 

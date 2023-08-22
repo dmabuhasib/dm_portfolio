@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Container from '../layout/Container';
 import SubHeading from '../layout/SubHeading';
-import Heading from '../layout/Heading';
 import Para from '../layout/Para';
 
 const AboutChosseSec = () => {

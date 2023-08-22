@@ -28,19 +28,19 @@ const Banner = () => {
           <div className="w-[95%] sm:w-2/4 md:w-[60%] mt-10 mb-6 sm:mb-28 md:mt-16 md:mb-36 lg:mt-20 lg:mb-40">
          
           <Slider {...settings}>
-          <div className=" leading-[48px] md:leading-[58px] lg:leading-[70px]">
-              <h2 className="text-[40px] md:text-[50px] lg:text-[60px] font-pop font-semibold text-primary">
+          <div className=" leading-[36px]  md:leading-[50px] lg:leading-[70px]">
+              <h2 className="text-[30px] md:text-[40px] lg:text-[60px] font-pop font-semibold text-primary">
                 Hi ! I Am A
               </h2>
-              <h2 className=" text-[40px] md:text-[50px] lg:text-[60px] font-pop font-semibold yellow-gr2">
+              <h2 className=" text-[30px] md:text-[40px] lg:text-[60px] font-pop font-semibold yellow-gr2">
                 Full Stack Developer
               </h2>
             </div>
-            <div className=" leading-[48px] md:leading-[58px] lg:leading-[70px]">
-              <h2 className="text-[40px] md:text-[50px] lg:text-[60px] font-pop font-semibold text-primary">
+            <div className=" leading-[36px] md:leading-[50px] lg:leading-[70px]">
+              <h2 className="text-[30px] md:text-[40px] lg:text-[60px] font-pop font-semibold text-primary">
                I Am 
               </h2>
-              <h2 className=" text-[40px] md:text-[50px] lg:text-[60px] font-pop font-semibold yellow-gr2">
+              <h2 className=" text-[30px] md:text-[40px] lg:text-[60px] font-pop font-semibold yellow-gr2">
                 Dm Abu Hasib
               </h2>
             </div>

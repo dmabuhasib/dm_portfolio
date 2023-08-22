@@ -39,7 +39,7 @@ const Navbar = ({ navbg }) => {
               onClick={() => setShow(!show)}
             />
             {show && (
-              <List className="text-primary flex flex-col md:flex-row md:justify-end md:gap-x-8 font-pop text-lg mt-2.5 md:mt-0">
+              <List className="text-primary flex  flex-col md:flex-row md:justify-end md:gap-x-8 font-pop text-lg mt-2.5 md:mt-0">
                 <Link
                   href="/"
                   className={router.pathname === '/' ? 'shadow-lg' : ''}
