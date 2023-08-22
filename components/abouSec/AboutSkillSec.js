@@ -6,7 +6,7 @@ import Link from 'next/link';
 const AboutSkillSec = () => {
   return (
     <Container>
-      <div className="pt-8 xl:py-24">
+      <div className="pt-8 xl:py-20">
         <div className="text-center">
           <SubHeading
             className="text-sm md:text-base lg:text-lg xl:text-xl yellow-gr2 font-pop font-bold"
