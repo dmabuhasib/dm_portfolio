@@ -27,7 +27,7 @@ const OfferSec = () => {
           <div className=" w-[100%] sm:w-[90%] mx-auto">
             <Para
               className=" text-center text-sm sm:text-base lg:text-lg text-para font-pop pb-10"
-              title="In our daily life, people usually look for different IT services for that. But from now on, no more worries, our service has the solution for everything. We have"
+              title="Explore a range of expert services tailored to your needs, from dynamic web development and responsive design to seamless e-commerce solutions. Elevate your online presence with us"
             />
           </div>
         </div>
@@ -56,7 +56,7 @@ const OfferSec = () => {
               />
               <Para
                 className="  text-xs sm:text-base lg:text-lg text-para font-pop"
-                title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
+                title="Expert web development that brings visions to life, creating dynamic sites with seamless functionality and exceptional user experiences."
               />
             </div>
             </Link>
@@ -69,21 +69,22 @@ const OfferSec = () => {
                   title="04"
                 />
               </div>
-              <div className="w-[25px] h-[32px] sm:w-[80px] sm:h-[80px] relative">
+              <div className="w-[32px] h-[32px] sm:w-[80px] sm:h-[80px] relative">
                 <Image
                   fill
-                  src="/assets/cms_icon.png"
-                  alt="cms_icon"
+                  src="/assets/wordpress_icon2.png"
+                  alt="wordpress_icon"
                 />
               </div>
               <SubHeading
                 className="text-primary font-pop font-bold text-base sm:text-lg lg:text-xl
                  pt-1 pb-2 lg:pt-2 lg:pb-4"
-                title="CMS (WordPress, Joomla,)"
+                title="WordPress"
               />
               <Para
                 className=" text-xs sm:text-base lg:text-lg text-para font-pop"
-                title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
+                title="
+                Harness the power of WordPress for dynamic and customizable websites, simplifying content management and enhancing user engagement."
               />
             </div>
             </Link>
@@ -114,7 +115,7 @@ const OfferSec = () => {
               />
               <Para
                 className="  text-xs sm:text-base lg:text-lg text-para font-pop"
-                title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries. "
+                title="Our web designs combine creativity and functionality, delivering engaging user experiences and impactful online presence."
               />
             </div>
             </Link>
@@ -141,7 +142,7 @@ const OfferSec = () => {
               />
               <Para
                 className="  text-xs sm:text-base lg:text-lg text-para font-pop"
-                title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
+                title="Creating seamless and visually appealing user experiences through expert UI/UX design, enhancing engagement and satisfaction."
               />
             </div>
             </Link>

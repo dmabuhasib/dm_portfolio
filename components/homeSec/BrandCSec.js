@@ -25,9 +25,7 @@ const BrandCSec = () => {
             </div>
             <Para
               className=" text-sm sm:text-base lg:text-lg text-para font-pop pb-6 md:pb-6 lg:pb-12 pt-3 md:pt-4"
-              title="Lorem ipsum dolor sit amet consectetur. Eget pellentesque
-            congue facilisi eget viverra leo tempor aliquet . Commodo et  
-             venenatis pellentesque. Commodo et montes id."
+              title="Elevating brands through comprehensive Full Stack expertise, crafting exceptional digital experiences that resonate with clients and audiences"
             />
             <div className="flex gap-4">
               <Link href="/">

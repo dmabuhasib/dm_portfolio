@@ -26,8 +26,8 @@ const AboutChosseSec = () => {
             <div className="w-[95%] sm:w-[90%] md:w-[100%] lg:w-[70%] mx-auto">
               <Para
                 className="text-center text-sm sm:text-base lg:text-lg text-para font-pop pb-8"
-                title="In our daily life, people usually look for different IT services 
-            for that. But from now on, no more worries,"
+                title="
+                Choose us for unparalleled expertise, innovative solutions, and a track record of delivering exceptional results"
               />
             </div>
           </div>
@@ -93,7 +93,7 @@ const AboutChosseSec = () => {
               />
               <Para
                 className=" text-sm sm:text-base lg:text-lg text-para font-pop"
-                title="We will help you with all your needs. In fact, you will get all kinds of services "
+                title="Partner with us to fuel your business growth through tailored strategies and innovative solutions."
               />
             </div>
           </div>

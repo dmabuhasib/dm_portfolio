@@ -48,8 +48,8 @@ const Banner = () => {
           
           </Slider>
           <Para
-              className=" text-sm sm:text-base lg:text-lg text-para font-inter pt-2 lg:pt-4 pb-4 md:pb-6 lg:pb-10"
-              title="Harness the power of our expertise, and we'll magnify your returns twofold. No empty promises, just dedicated work that speaks volumes through your account manager. Unlock your business's potential and become the town's talk with Magvide by your side. Let's create digital marketing magic together."
+              className=" text-sm sm:text-base lg:text-lg text-para font-pop pt-2 lg:pt-4 pb-4 md:pb-6 lg:pb-10"
+              title="Gain a competitive edge with a skilled Full Stack Developer. I craft responsive interfaces, robust backends, and efficient databases. Collaborate effectively in Agile setups for holistic web solutions that elevate your online presence. Let's optimize your digital success together"
             />
          
             <div className="flex gap-4">

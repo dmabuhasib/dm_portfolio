@@ -18,8 +18,9 @@ const ProjectSec = () => {
               </h2>
 
             </div>
-              <Para className="text-center w-[100%] xl:px-0 sm:w-[90%] md:w-[80%] lg:w-[70%] px-5  mx-auto pt-6 pb-10"
-              title="Lorem ipsum dolor sit amet consectetur. Amet rhoncus id  uam ac sodales proin habitasse. Semper ac id enim aenean dolor tortor scelerisque eget augue. Purus neque eget pellentesque elementum vel"
+              <Para className="text-center text-sm sm:text-base lg:text-lg font-pop w-[100%] xl:px-0 sm:w-[90%] md:w-[80%] lg:w-[65%] px-5  mx-auto pt-6 pb-10"
+              title="
+              Navigating diverse projects seamlessly with Full Stack skills, delivering innovative solutions that captivate audiences, enhance usability, and drive success."
                />
 
                <div className='flex justify-center sm:justify-between px-5 xl:px-0 flex-wrap pt-8 lg:pt-14 gap-y-8 xl:gap-y-10'>

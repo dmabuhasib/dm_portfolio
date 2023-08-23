@@ -2,7 +2,7 @@ import Container from '../layout/Container';
 import Para from '../layout/Para';
 import Link from 'next/link';
 import ButtonP from '../layout/ButtonP';
-import Image from 'next/image'; 
+import Image from 'next/image';
 
 const ServicePart = () => {
   return (
@@ -18,8 +18,8 @@ const ServicePart = () => {
             </h2>
           </div>
           <Para
-            className=" text-sm sm:text-base lg:text-lg text-para font-inter pb-6 md:pb-6 lg:pb-10 pt-3 md:pt-4 "
-            title="Harness the power of our expertise, and we'll magnify your returns twofold. No empty promises, just dedicated work that speaks volumes through your account manager."
+            className=" text-sm sm:text-base lg:text-lg text-para font-pop pb-6 md:pb-6 lg:pb-10 pt-3 md:pt-4 "
+            title="Delivering end-to-end web solutions: responsive front-end, efficient back-end, and seamless database integration. Elevate your digital presence with my Full Stack Developer services."
           />
           <div className="flex gap-4">
             <Link href="/">
@@ -36,19 +36,17 @@ const ServicePart = () => {
                 alt="frontend_icon_image"
               />
             </div>
-            <h2 className=" text-center text-[20px] lg:text-[24px] pt-2 lg:pt-7 font-mon font-semibold text-primary">
+            <h2 className=" text-center text-[20px] lg:text-[24px] pt-2 lg:pt-7 font-pop font-semibold text-primary">
               Front End Development
             </h2>
             <Para
-              className=" text-center text-sm sm:text-base lg:text-lg text-para font-inter pb-3 md:pb-6 lg:pb-10 md:pt-4 "
-              title="Lorem ipsum dolor sit  consectetur.
-              Pellentesque eleifend interdum  amet
-              donec pellentesque eget nec ."
+              className=" text-center text-sm sm:text-base  text-para font-pop pb-3 md:pb-6 lg:pb-10 md:pt-4 "
+              title="Enhancing user experiences through intuitive and responsive frontend development for you"
             />
             <div className="text-center">
               <Link href="/services">
                 <button
-                  className="text-yellowp rounded duration-300 ease-in-out bg-white font-bold px-6 py-2 shadow-cshadow3
+                  className="text-yellowp font-pop rounded duration-300 ease-in-out bg-white font-bold px-6 py-3 shadow-cshadow3
             hover:bg-yellowp hover:text-white"
                 >
                   Learn More
@@ -67,20 +65,18 @@ const ServicePart = () => {
                   alt="backend_icon_image"
                 />
               </div>
-              <h2 className=" text-center text-[20px] lg:text-[24px] pt-2 lg:pt-7 font-mon font-semibold text-primary">
+              <h2 className=" text-center text-[20px] lg:text-[24px] pt-2 lg:pt-7 font-pop font-semibold text-primary">
                 Back End Development
               </h2>
               <Para
-                className=" text-center text-sm sm:text-base lg:text-lg text-para font-inter pb-3 md:pb-6 lg:pb-10 md:pt-4 "
-                title="Lorem ipsum dolor sit  consectetur.
-              Pellentesque eleifend interdum  amet
-              donec pellentesque eget nec ."
+                className=" text-center text-sm sm:text-base text-para font-pop pb-3 md:pb-6 lg:pb-10 md:pt-4 "
+                title="Empowering apps with efficient and scalable backend development for optimal performance"
               />
               <div className="text-center">
                 <Link href="/services">
                   <button
-                    className="text-yellowp rounded duration-300 ease-in-out bg-white font-bold px-6 py-2 shadow-cshadow3
-            hover:bg-yellowp hover:text-white"
+                className="text-yellowp font-pop rounded duration-300 ease-in-out bg-white font-bold px-6 py-3 shadow-cshadow3
+                hover:bg-yellowp hover:text-white"
                   >
                     Learn More
                   </button>
@@ -97,20 +93,18 @@ const ServicePart = () => {
                   alt="fullstack_icon_image"
                 />
               </div>
-              <h2 className=" text-center text-[20px] lg:text-[24px] pt-2 lg:pt-7 font-mon font-semibold text-primary">
+              <h2 className=" text-center text-[20px] lg:text-[24px] pt-2 lg:pt-7 font-pop font-semibold text-primary">
                 FullStack Development
               </h2>
               <Para
-                className=" text-center text-sm sm:text-base lg:text-lg text-para font-inter pb-3 md:pb-6 lg:pb-10 md:pt-4 "
-                title="Lorem ipsum dolor sit  consectetur.
-              Pellentesque eleifend interdum  amet
-              donec pellentesque eget nec ."
+                className=" text-center text-sm sm:text-base  text-para font-pop pb-3 md:pb-6 lg:pb-10 md:pt-4 "
+                title="Seamlessly integrated web solutions through expert Full Stack development for enhanced user experiences."
               />
               <div className="text-center">
                 <Link href="/services">
                   <button
-                    className="text-yellowp rounded duration-300 ease-in-out bg-white font-bold px-6 py-2 shadow-cshadow3
-            hover:bg-yellowp hover:text-white"
+                  className="text-yellowp font-pop rounded duration-300 ease-in-out bg-white font-bold px-6 py-3 shadow-cshadow3
+                  hover:bg-yellowp hover:text-white"
                   >
                     Learn More
                   </button>

@@ -47,7 +47,7 @@ const ContactForm = () => {
           </div>
           <Para
             className="text-xl pb-10"
-            title="Setup a free consultation with me. Bring your knowledge to the table and I’ll bring you."
+            title="Setup a free consultation with me. Bring your knowledge to the table and I’ll give you a best solution."
           />
 
           <div className=" hidden sm:block mx-auto sm:mx-0 w-[90%] h-[300px] sm:h-[260px] md:h-[360px] xl:h-[410px] relative">

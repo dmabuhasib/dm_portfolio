@@ -19,7 +19,7 @@ const AboutPartnerSec = () => {
             className="inline-block text-sm md:text-base lg:text-lg xl:text-xl yellow-gr2 font-pop font-bold"
             title="WHO I AM"
           />
-          <div className=" leading-[36px] w-[100%]  lg:pt-8 lg:pb-4 sm:leading-[44px] md:leading-[50px]">
+          <div className=" leading-[36px] w-[100%]  lg:pt-4 lg:pb-4 sm:leading-[44px] md:leading-[50px]">
             <h2 className=" text-[28px] sm:text-[36px] md:text-[46px] inline font-pop font-semibold text-primary">
             Your Trusted Partner  
             </h2>  &nbsp;
@@ -29,10 +29,9 @@ const AboutPartnerSec = () => {
             </h2>
           </div>
           <Para
-            className=" text-sm sm:text-base md:text-sm sm:pb-5 md:pb-6 lg:pb-8 lg:text-lg text-para font-inter"
-            title="In our daily life, people usually look for different IT 
-          services for that. But from now on, no more worries, 
-          our service has the solution for everything."
+            className=" text-sm sm:text-base md:text-sm sm:pb-5 md:pb-6 lg:pb-8 lg:text-lg text-para font-pop"
+            title="
+            Passionate professionals dedicated to crafting exceptional digital experiences, merging creativity with technology for impactful results."
           />
         </div>
       </div>
@@ -45,7 +44,7 @@ const AboutPartnerSec = () => {
           />
           <Para
             className=" text-sm sm:text-base lg:text-lg text-para font-pop"
-            title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
+            title="Our mission: To innovate and empower by creating digital solutions that inspire and drive growth."
           />
         </div>
         <div className=" w-[48%] sm:w-[31%] text-center px-3 py-4 md:px-5 md:pt-4 md:pb-8 lg:px-7 lg:pt-6 lg:pb-12 shadow-cshadow rounded-lg">
@@ -56,7 +55,7 @@ const AboutPartnerSec = () => {
           />
           <Para
             className=" text-sm sm:text-base lg:text-lg text-para font-pop"
-            title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
+            title="Guided by integrity, innovation, and collaboration, our values shape our commitment to excellence and client success."
           />
         </div>
         <div className=" w-[48%] mx-auto sm:mx-0 sm:w-[31%] text-center px-3 py-4 md:px-5 md:pt-4 md:pb-8 lg:px-7 lg:pt-6 lg:pb-12 shadow-cshadow rounded-lg">
@@ -67,7 +66,7 @@ const AboutPartnerSec = () => {
           />
           <Para
             className=" text-sm sm:text-base lg:text-lg text-para font-pop"
-            title="In our daily life, people usually look for different IT services for that. But from nowon, no more worries."
+            title="Envisioning a future where cutting-edge technology and creative solutions converge to transform businesses worldwide."
           />
         </div>
       </div>
