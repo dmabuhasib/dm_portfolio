@@ -30,18 +30,19 @@ const Banner = () => {
           <Slider {...settings}>
           <div className=" leading-[36px]  md:leading-[50px] lg:leading-[70px]">
               <h2 className="text-[30px] md:text-[40px] lg:text-[60px] font-pop font-semibold text-primary">
-                Hi ! I Am A
+                Hi ! I Am
               </h2>
               <h2 className=" text-[30px] md:text-[40px] lg:text-[60px] font-pop font-semibold yellow-gr2">
-                Full Stack Developer
+              
+                Dm Abu Hasib
               </h2>
             </div>
             <div className=" leading-[36px] md:leading-[50px] lg:leading-[70px]">
               <h2 className="text-[30px] md:text-[40px] lg:text-[60px] font-pop font-semibold text-primary">
-               I Am 
+               I Am A
               </h2>
               <h2 className=" text-[30px] md:text-[40px] lg:text-[60px] font-pop font-semibold yellow-gr2">
-                Dm Abu Hasib
+              Full Stack Developer
               </h2>
             </div>
           

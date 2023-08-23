@@ -32,8 +32,8 @@ const ServicePart = () => {
             <div className="w-[60px] h-[60px] lg:w-[80px] lg:h-[80px] mx-auto relative">
               <Image
                 fill
-                src="/assets/web_icon_image2.png"
-                alt="web_icon_image"
+                src="/assets/backend_icon.png"
+                alt="frontend_icon_image"
               />
             </div>
             <h2 className=" text-center text-[20px] lg:text-[24px] pt-2 lg:pt-7 font-mon font-semibold text-primary">
@@ -63,8 +63,8 @@ const ServicePart = () => {
               <div className="w-[60px] h-[60px] lg:w-[80px] lg:h-[80px] mx-auto relative">
                 <Image
                   fill
-                  src="/assets/web_icon_image2.png"
-                  alt="web_icon_image"
+                  src="/assets/backend_icon2.png"
+                  alt="backend_icon_image"
                 />
               </div>
               <h2 className=" text-center text-[20px] lg:text-[24px] pt-2 lg:pt-7 font-mon font-semibold text-primary">
@@ -93,8 +93,8 @@ const ServicePart = () => {
               <div className="w-[60px] h-[60px] lg:w-[80px] lg:h-[80px] mx-auto relative">
                 <Image
                   fill
-                  src="/assets/web_icon_image2.png"
-                  alt="web_icon_image"
+                  src="/assets/fullstack_icon.png"
+                  alt="fullstack_icon_image"
                 />
               </div>
               <h2 className=" text-center text-[20px] lg:text-[24px] pt-2 lg:pt-7 font-mon font-semibold text-primary">
