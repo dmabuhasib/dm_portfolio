@@ -1,33 +1,34 @@
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF } from 'react-icons/fa';
 import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiFillLinkedin,
   AiOutlineMail,
-} from "react-icons/ai";
-import { BsWhatsapp } from "react-icons/bs";
+} from 'react-icons/ai';
+import { BsWhatsapp } from 'react-icons/bs';
 
-import Link from "next/link";
-import Heading from "./Heading";
-import List from "./List";
-import ListItem from "./ListItem";
-import Image from "next/image";
+import Link from 'next/link';
+import Heading from './Heading';
+import List from './List';
+import ListItem from './ListItem';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
     <div className="bg-[#151515] border-b-8 border-yellowp  ">
       <div className="lg:max-w-container mx-auto  border-b-2 mb-4">
         <div className="flex flex-wrap justify-between gap-y-4  py-5 px-5 sm:py-16 md:py-10 lg:py-10">
-        <div className="w-[90%]  sm:w-[35%] lg:w-[25%]">
+          <div className="w-[90%]  sm:w-[35%] lg:w-[25%]">
             <div>
               <Link href="/">
-              <div className="w-[85px] h-[81px] md:w-[110px] md:h-[105px] relative">
-                <Image fill src="/assets/logo.png" alt="logo" cover />
-              </div>
+                <div className="w-[85px] h-[81px] md:w-[110px] md:h-[105px] relative">
+                  <Image fill src="/assets/logo.png" alt="logo" cover />
+                </div>
               </Link>
               <p className="text-white text-sm font-light font-pop mt-6 mr-2">
-               
-I specialize in crafting functional and captivating web experiences, merging design and code seamlessly for enhanced user engagement. Let’s build your digital vision.
+                I specialize in crafting functional and captivating web
+                experiences, merging design and code seamlessly for enhanced
+                user engagement. Let’s build your digital vision.
               </p>
             </div>
           </div>
@@ -38,33 +39,31 @@ I specialize in crafting functional and captivating web experiences, merging des
                 title="Connect Online"
               />
               <div className=" flex mt-4 gap-x-2 text-yellow text-3xl d-flex flex-wrap gap-2">
-              <div className="bg-white p-2 duration-200 ease-in-out hover:bg-yellowp rounded-md">
-                <Link href="https://www.facebook.com/dmabuhasib/">
-                  <FaFacebookF className="duration-150 ease-in-out  hover:cursor-pointer" />
-                </Link> 
-                </div>
                 <div className="bg-white p-2 duration-200 ease-in-out hover:bg-yellowp rounded-md">
-                <Link href="https://twitter.com/dmabuhasib">
-                  <AiOutlineTwitter className="duration-150 ease-in-out  hover:cursor-pointer" />
-                </Link>
-                </div>
-                <div className="bg-white p-2 duration-200 ease-in-out hover:bg-yellowp rounded-md">
-                <Link href="https://www.instagram.com/dmabuhasib/">
-                  <AiFillInstagram className="duration-150 ease-in-out  hover:cursor-pointer" />
-                </Link>
-                </div>
-                <div className="bg-white p-2 duration-200 ease-in-out hover:bg-yellowp rounded-md">
-                <Link href="/">
-                  <AiOutlineMail className="duration-150 ease-in-out  hover:cursor-pointer" />
-                </Link>
-                </div>
-                <div className="bg-white p-2 duration-200 ease-in-out hover:bg-yellowp rounded-md">
-                  <Link href="https://www.linkedin.com/in/dmabuhasib/" >
-
-                  <AiFillLinkedin className="duration-150 ease-in-out  hover:cursor-pointer" />
+                  <Link href="https://www.facebook.com/dmabuhasib/">
+                    <FaFacebookF className="duration-150 ease-in-out  hover:cursor-pointer" />
                   </Link>
                 </div>
-             
+                <div className="bg-white p-2 duration-200 ease-in-out hover:bg-yellowp rounded-md">
+                  <Link href="https://twitter.com/dmabuhasib">
+                    <AiOutlineTwitter className="duration-150 ease-in-out  hover:cursor-pointer" />
+                  </Link>
+                </div>
+                <div className="bg-white p-2 duration-200 ease-in-out hover:bg-yellowp rounded-md">
+                  <Link href="https://www.instagram.com/dmabuhasib/">
+                    <AiFillInstagram className="duration-150 ease-in-out  hover:cursor-pointer" />
+                  </Link>
+                </div>
+                <div className="bg-white p-2 duration-200 ease-in-out hover:bg-yellowp rounded-md">
+                  <Link href="/">
+                    <AiOutlineMail className="duration-150 ease-in-out  hover:cursor-pointer" />
+                  </Link>
+                </div>
+                <div className="bg-white p-2 duration-200 ease-in-out hover:bg-yellowp rounded-md">
+                  <Link href="https://www.linkedin.com/in/dmabuhasib/">
+                    <AiFillLinkedin className="duration-150 ease-in-out  hover:cursor-pointer" />
+                  </Link>
+                </div>
               </div>
             </div>
             <div></div>
@@ -80,13 +79,17 @@ I specialize in crafting functional and captivating web experiences, merging des
                   className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
                   itemname="FAQs"
                 />
-                <Link
-                href="/contact">
-
-                <ListItem
-                  className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
-                  itemname="Contact Us"
-                />
+                <Link href="/courses">
+                  <ListItem
+                    className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
+                    itemname="Courses"
+                  />
+                </Link>
+                <Link href="/contact">
+                  <ListItem
+                    className="pb-1 sm:pb-2 duration-150 ease-in-out hover:tracking-wide hover:text-yellow hover:cursor-pointer "
+                    itemname="Contact Us"
+                  />
                 </Link>
               </List>
             </div>
@@ -114,7 +117,9 @@ I specialize in crafting functional and captivating web experiences, merging des
       </div>
       <div className="flex justify-between items-center lg:max-w-container mx-auto px-3 lg:px-0 pb-3 ">
         <div>
-          <p className="text-white">&copy; All right reserved by Dm Abu Hasib</p>
+          <p className="text-white">
+            &copy; All right reserved by Dm Abu Hasib
+          </p>
         </div>
         <div className="flex gap-x-2">
           <p className="text-white">Sitemap | </p>
