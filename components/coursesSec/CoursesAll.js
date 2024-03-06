@@ -16,10 +16,9 @@ const CoursesAll = () => {
             <h2 className=" text-[28px] sm:text-[36px] md:text-[40px] lg:text-[52px] inline font-pop font-semibold text-primary">
               Here Are Many Courses Link
             </h2>
-            &nbsp;
-            &nbsp;
+            &nbsp; &nbsp;
             <h2 className=" text-[28px] sm:text-[36px] md:text-[40px]  inline lg:text-[52px] font-pop font-semibold yellow-gr2">
-               Which Are Developed Your Skills
+              Which Are Developed Your Skills
             </h2>
           </div>
         </div>
@@ -28,21 +27,7 @@ const CoursesAll = () => {
             <List className="list-disc w-2/4">
               <li class="text-green-500  text-xl font-medium py-1">
                 <Link
-                  href="https://drive.google.com/drive/folders/1KYRN9tjW6q0iqrFLf2zTkYpv7krleQBq?usp=sharing"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <p
-                    title="Click to Learn"
-                    class="text-primary font-pop hover:text-blue-500"
-                  >
-                    MS Excel
-                  </p>
-                </Link>
-              </li>
-              <li class="text-green-500  text-xl font-medium py-1">
-                <Link
-                  href="https://drive.google.com/drive/folders/1iiQPgxPNClECJmhGc2aATgqZLPvEKDzM?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1sSognl-VifucK04jOAGq1tGTjws6EyH1?usp=sharing"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -54,6 +39,21 @@ const CoursesAll = () => {
                   </p>
                 </Link>
               </li>
+              <li class="text-green-500  text-xl font-medium py-1">
+                <Link
+                  href="https://drive.google.com/drive/folders/19IqsMHkLI5GYcTnDyJDgsYC6YETI9Q6h?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <p
+                    title="Click to Learn"
+                    class="text-primary font-pop hover:text-blue-500"
+                  >
+                    MS Excel
+                  </p>
+                </Link>
+              </li>
+
               <li class="text-green-500  text-xl font-medium py-1">
                 <Link
                   href="https://mui.com/material-ui/getting-started/"
@@ -70,7 +70,6 @@ const CoursesAll = () => {
               </li>
             </List>
 
-
             <List className="list-disc w-2/4">
               <li class="text-green-500  text-xl font-medium py-1">
                 <Link
@@ -85,7 +84,7 @@ const CoursesAll = () => {
                     React js
                   </p>
                 </Link>
-             </li>
+              </li>
               <li class="text-green-500  text-xl font-medium py-1">
                 <Link
                   href="https://www.w3schools.com/html/default.asp"
@@ -103,20 +102,19 @@ const CoursesAll = () => {
             </List>
           </div>
 
-
           <div className=" w-[100%] sm:w-[45%] flex flex-wrap justify-between mt-6 sm:mt-0">
             <List className="list-disc w-2/4">
               <li class="text-green-500  text-xl font-medium py-1">
                 <Link
                   href="https://www.w3schools.com/html/default.asp"
                   rel="noopener noreferrer"
-                  target="_blank" 
+                  target="_blank"
                 >
                   <p
                     title="Click to Learn"
                     class="text-primary font-pop hover:text-blue-500"
                   >
-                   Node jS
+                    Node jS
                   </p>
                 </Link>
               </li>
@@ -130,7 +128,7 @@ const CoursesAll = () => {
                     title="Click to Learn"
                     class="text-primary font-pop hover:text-blue-500"
                   >
-                   Express js
+                    Express js
                   </p>
                 </Link>
               </li>
@@ -144,13 +142,11 @@ const CoursesAll = () => {
                     title="Click to Learn"
                     class="text-primary font-pop hover:text-blue-500"
                   >
-                   REST APIs
+                    REST APIs
                   </p>
                 </Link>
               </li>
-             
             </List>
-
 
             <List className="list-disc w-2/4">
               <li class="text-green-500  text-xl font-medium py-1">
@@ -169,7 +165,7 @@ const CoursesAll = () => {
               </li>
               <li class="text-green-500  text-xl font-medium py-1">
                 <Link
-                  href="https://www.w3schools.com/html/default.asp"
+                  href="https://drive.google.com/drive/folders/1PobbDl0YjpXAwpcG8dQxjEfndGM02DNo?usp=sharing"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -177,13 +173,12 @@ const CoursesAll = () => {
                     title="Click to Learn"
                     class="text-primary font-pop hover:text-blue-500"
                   >
-                    MySql
+                    Islamic Books
                   </p>
                 </Link>
               </li>
             </List>
           </div>
-
 
           <div className="w-[100%] sm:w-[10%] mt-6 sm:mt-0">
             <List className="list-disc">
@@ -197,7 +192,21 @@ const CoursesAll = () => {
                     title="Click to Learn"
                     class="text-primary font-pop hover:text-blue-500"
                   >
-                     Git
+                    Git
+                  </p>
+                </Link>
+              </li>
+              <li class="text-green-500  text-xl font-medium py-1">
+                <Link
+                  href="https://drive.google.com/drive/folders/1UKQDzavaAg6EEHniwkF5EOfw5G45l-5U?usp=sharing"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <p
+                    title="Click to Learn"
+                    class="text-primary font-pop hover:text-blue-500"
+                  >
+                    English
                   </p>
                 </Link>
               </li>
@@ -211,21 +220,7 @@ const CoursesAll = () => {
                     title="Click to Learn"
                     class="text-primary font-pop hover:text-blue-500"
                   >
-                     Bitbucket
-                  </p>
-                </Link>
-              </li>
-              <li class="text-green-500  text-xl font-medium py-1">
-                <Link
-                  href="https://www.w3schools.com/html/default.asp"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <p
-                    title="Click to Learn"
-                    class="text-primary font-pop hover:text-blue-500"
-                  >
-                     AZURE
+                    AZURE
                   </p>
                 </Link>
               </li>
@@ -243,7 +238,6 @@ const CoursesAll = () => {
                   </p>
                 </Link>
               </li>
-              
             </List>
           </div>
         </div>
